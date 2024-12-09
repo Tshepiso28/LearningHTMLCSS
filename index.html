@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <!-- This is our top div -->
+        <div class="top-div">
+            <h1>Submit a tool</h1>
+            <button><img src="https://www.freeiconspng.com/thumbs/close-button-png/silver-close-button-png-15.png" alt="close"></button>
+        </div>
+        <!-- This is our bottom div -->
+        <div class="bottom-div">
+            <div>
+                <label for="txtName">Name</label>
+                <input type="text" name="txtName" id="txtName">
+            </div>
+
+            <div>
+                <label for="txtLink">Link to resource</label>
+                <input type="url" name="txtLink" id="txtLink">
+            </div>
+
+            <div>
+                <label for="txtCat">Category</label>
+                <select name="txtCat" id="txtCat">
+                    <option value="vsCode">VS Code</option>
+                    <option value="gitHub">GitHub</option>
+                    <option value="chrome">Chrome</option>
+                </select>
+            </div>
+
+            <button>Submit</button>
+        </div>
+    </div>
+    
+</body>
+</html>
