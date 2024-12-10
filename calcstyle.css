@@ -1,0 +1,69 @@
+body{
+    
+    background-color: #e6eaed;
+}
+.cal-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 800px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.screen-div{
+    background-color: #788f9c;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.button-div{
+    height: 600px;
+    background-color: #D3D3D3;
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 4px;
+
+}
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid gainsboro;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+.grid-item button{
+    font-size: 20px;
+    border: none;
+    border-radius: 15%;
+    height:100%;
+    width:100%;
+    background-color: transparent;
+    
+}
+#btnSign{
+    background-color: #36454F;
+    color: white;
+    
+}
+#btnSign:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.grid-item button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+#btnEqual{
+    background-color: #D70040;
+}
+#btnEqual:hover{
+    background-color: #ff6567;
+} 
