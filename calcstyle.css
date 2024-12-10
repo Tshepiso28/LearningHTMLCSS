@@ -22,7 +22,7 @@ body{
     background-color: #D3D3D3;
     border-radius: 0 0 10px 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 120px 120px 120px 130px;
     padding: 4px;
 
 }
