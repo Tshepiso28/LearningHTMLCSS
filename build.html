@@ -9,39 +9,54 @@
 <body>
     <div class="first-div">
         
-        <div class="image-div">
-        <h1>Basic Information</h1>
-        <img src="https://moresmilesdentalclinic.com/wp-content/uploads/2017/09/bigstock-profile-of-male-geek-smiling-w-35555741-250x250-1.jpg" alt=" Man"><br>
-        <a href="#">Replace image</a>
-        </div><br><br>
-        <div class="label-div">
-            <div>
-                <label for="txtName">First Name</label>
-                <input type="text" name="txtName" id="txtName">
-                <label for="txtName">Last name</label>
-                <input type="text" name="txtName" id="txtName">
-            </div><br>
-            <div>
-                <label for="txtOcc">Occupation</label><br>
-                <input type="text" name="txtOcc" id="txtOcc">
-            </div><br>
-            <div>
-                <label for="txtComp">Company</label><br>
-                <input type="text" name="txtComp" id="txtComp">
-            </div><br>
-            <div>
-                <label for="txtLoc">Location</label>
-                <select name="txtLoc" id="txtLoc">
-                    <option value="country">Country</option>
-                    <option value="norway">Norway</option>
-                </select>
-                <input type="text" name="txtCity" id="txtCity">
-            </div> <br>
-            <div>
-                <button>Cancel</button>
-                <button>Save Changes</button>
-            </div>
+        <div class="head-div">
+        <h1 style="color: white;">Basic Information</h1>
         </div>
+        <div class="main-content">
+            <div class="img-div">
+                <img src="https://moresmilesdentalclinic.com/wp-content/uploads/2017/09/bigstock-profile-of-male-geek-smiling-w-35555741-250x250-1.jpg" alt=" Man"><br>
+                <a href="#">Replace image</a>
+            </div>
+            <div class="label-div">
+                <div class="name-div"> 
+                    <div class="firstName">
+                        <label for="txtName">First Name</label>
+                        <input type="text" name="txtName" id="txtName">
+                    </div>
+                    <div class="lastName">
+                        <label for="txtName">Last name</label>
+                        <input type="text" name="txtName" id="txtName">
+                    </div>
+
+                </div>
+                <div class="occu">
+                    <label for="txtOcc">Occupation</label>
+                    <input type="text" name="txtOcc" id="txtOcc">
+                </div>
+                <div class="comp">
+                    <label for="txtComp">Company</label>
+                    <input type="text" name="txtComp" id="txtComp">
+                </div>
+                <div class="loc-div">
+                    <label for="txtLoc">Location</label>
+                    <div class="place-div">
+                        <select name="txtLoc" id="txtLoc">
+                            <option value="country">Country</option>
+                            <option value="norway">Norway</option>
+                        </select>
+                        <input type="text" name="txtCity" id="txtCity">
+                    </div>
+
+                </div> <br>
+                <div>
+                    <button>Cancel</button>
+                    <button>Save Changes</button>
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
     
 </body>

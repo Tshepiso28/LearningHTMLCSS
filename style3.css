@@ -1,8 +1,112 @@
 body{
     background-color: #161724;
+    padding: 100px 150px;
 }
 .first-div{
     display: flex;
+    flex-direction: column;
+    background-color: #23243a;
+    padding: 100px;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+.main-content{
+    display: flex;
     flex-direction: row;
-   background-color: #23243a;
+    
+}
+.img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid #452c63;
+    margin-right: 5%;
+}
+.img-div a {
+    text-decoration: none;
+    text-align: center;
+    color: #662d91;
+    padding-bottom: 20px;
+    
+
+}
+.img-div img{
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.name-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.firstName{
+    display: flex;
+    flex-direction: column;
+}
+.firstName label{
+    color: white;
+    opacity: 70%;
+}
+.firstName input{
+    background-color: transparent;
+    border: #662d91 solid;
+    border-radius: 2px;
+    line-height: 50px;
+    
+}
+.lastName{
+    display: flex;
+    flex-direction: column;
+}
+.lastName label{
+    color: white;
+    opacity: 70%; 
+}
+.lastName input{
+    background-color: transparent;
+    border: #662d91 solid;
+    border-radius: 2px;
+    line-height: 50px;
+}
+.occu{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    opacity: 70%; 
+}
+.occu input{
+    background-color: transparent;
+    border: #662d91 solid;
+    border-radius: 2px;
+    line-height: 50px;
+    width: 325px;
+}
+.comp{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    opacity: 70%; 
+    gap: 100%;
+}
+.comp input{
+    background-color: transparent;
+    border: #662d91 solid;
+    border-radius: 2px;
+    line-height: 50px;
+    width: 325px;
+}
+.loc-div{
+    display: flex;
+    flex-direction: column;
+}
+.loc-div label{
+    color: white;
+    opacity: 70%;
+   
+}
+.place-div{
+    display: flex;
+    flex-direction: row; 
 }
