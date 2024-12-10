@@ -16,6 +16,9 @@ body{
     flex-direction: column;
     padding-left: 7%;
 }
+.top-div h1{
+    margin: 0px;
+}
 
 .email-div{
     display: flex;
