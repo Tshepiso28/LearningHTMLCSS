@@ -1,112 +1,57 @@
-body{
-    background-color: #161724;
-    padding: 100px 150px;
-}
 .first-div{
+    background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    background-color: #23243a;
-    padding: 100px;
-    gap: 20px;
-    border-radius: 10px;
-
+    gap: 30px;
 }
 .main-content{
+    background-color: red;
     display: flex;
     flex-direction: row;
-    
+    gap: 30px;
+
 }
 .img-div{
+    background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid #452c63;
-    margin-right: 5%;
-}
-.img-div a {
-    text-decoration: none;
-    text-align: center;
-    color: #662d91;
-    padding-bottom: 20px;
-    
-
+    align-items: center;
 }
 .img-div img{
     border-radius: 50%;
-    margin: 30px;
+    margin: 10px;
+}
+.img-div a{
+    text-decoration: none;
+    padding-bottom: 10%;
 }
 
+.label-div{
+    background-color: seagreen;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .name-div{
+    background-color: crimson;
     display: flex;
     flex-direction: row;
-    gap: 10%;
-}
-.firstName{
-    display: flex;
-    flex-direction: column;
-}
-.firstName label{
-    color: white;
-    opacity: 70%;
-}
-.firstName input{
-    background-color: transparent;
-    border: #662d91 solid;
-    border-radius: 2px;
-    line-height: 50px;
-    
-}
-.lastName{
-    display: flex;
-    flex-direction: column;
-}
-.lastName label{
-    color: white;
-    opacity: 70%; 
-}
-.lastName input{
-    background-color: transparent;
-    border: #662d91 solid;
-    border-radius: 2px;
-    line-height: 50px;
+    gap: 20px;
 }
 .occu{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    opacity: 70%; 
-}
-.occu input{
-    background-color: transparent;
-    border: #662d91 solid;
-    border-radius: 2px;
-    line-height: 50px;
-    width: 325px;
+    background-color: darkmagenta;
 }
 .comp{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    opacity: 70%; 
-    gap: 100%;
-}
-.comp input{
-    background-color: transparent;
-    border: #662d91 solid;
-    border-radius: 2px;
-    line-height: 50px;
-    width: 325px;
+    background-color: orangered;
 }
 .loc-div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: dimgrey;
 }
-.loc-div label{
-    color: white;
-    opacity: 70%;
-   
-}
-.place-div{
+.button-div{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    background-color: grey;
 }
