@@ -1,57 +1,161 @@
+.lay-div{
+    background-color: #161724;
+    padding: 100px;
+}
+
 .first-div{
-    background-color: aquamarine;
+
     display: flex;
     flex-direction: column;
     gap: 30px;
+    padding: 10%;
+    background-color: #23243a;
 }
 .main-content{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     gap: 30px;
 
+
 }
 .img-div{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: #662d91 solid;
 }
 .img-div img{
     border-radius: 50%;
     margin: 10px;
 }
-.img-div a{
+.img-div input{
     text-decoration: none;
     padding-bottom: 10%;
+    padding-left: 50%;
 }
 
 .label-div{
-    background-color: seagreen;
+    /* background-color: seagreen; */
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .name-div{
-    background-color: crimson;
+    /* background-color: crimson; */
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 35px;
 }
+/* First Name Section */
+.firstName{
+    display: flex;
+    flex-direction: column;
+}
+.firstName label{
+    color: white;
+}
+.firstName input{
+    background-color: transparent;
+    line-height: 50px;
+    border: #662d91 solid;
+    border-radius: 2px;
+}
+/* Last Name Section */
+.lastName{
+    display: flex;
+    flex-direction: column;
+}
+.lastName label{
+    color: white;
+}
+.lastName input{
+    background-color: transparent;
+    line-height: 50px;
+    border: #662d91 solid;
+    border-radius: 2px;
+}
+/* Occupation Section */
 .occu{
-    background-color: darkmagenta;
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkmagenta; */
 }
+.occu label{
+    color: white;
+}
+.occu input{
+    background-color: transparent;
+    line-height: 50px;
+    border: #662d91 solid;
+    border-radius: 2px;
+}
+/* Company Section */
 .comp{
-    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    /* background-color: orangered; */
 }
+.comp label{
+    color: white;
+}
+.comp input{
+    background-color: transparent;
+    line-height: 50px;
+    border: #662d91 solid;
+    border-radius: 2px;
+}
+/* Location Section */
 .loc-div{
     display: flex;
-    flex-direction: row;
-    background-color: dimgrey;
+    flex-direction: column;
+    /* background-color: dimgrey; */
 }
+.loc-div label{
+    color: white;
+}
+.place-div{
+    display: flex;
+    gap: 30px;
+}
+.place-div input{
+    background-color: transparent;
+    line-height: 50px;
+    border: #662d91 solid;
+    border-radius: 2px;
+}
+.place-div select{
+    background-color: transparent;
+    line-height: 50px;
+    color: white;
+    width: 150px;
+    border: #662d91 solid;
+    border-radius: 2px
+}
+/* Button Section */
 .button-div{
     display: flex;
     flex-direction: row;
-    background-color: grey;
+    justify-content: flex-end;
+    /* background-color: grey; */
+    gap: 10px;
+}
+.cancel{
+    background-color:#161724;
+    border: #662d91 solid;
+    border-radius: 2px;
+    color: white;
+    line-height: 30px;
+    width: 80px;
+}
+.save{
+    background-color: white;
+    border-radius: 2px;
+    line-height: 30px;
+    width: 120px;
+    color: #161724;
+    justify-content: center;
+
 }
